@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    header img {
+      border-radius: 50%;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+    }
+
+    nav {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ffffff;
+      margin: 0 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .image-container img {
+      border-radius: 8px;
+      /* You can adjust the value based on your preference */
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Responsive styles */
+    @media only screen and (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>อิทธิกร สิริเวชพันธุ์</h1>
+    <img src="avatar.jpg" alt="รูปภาพ">
+    <nav>
+      <a href="#skills">ทักษะ</a>
+      <a href="#performance">ผลงาน</a>
+    </nav>
+  </header>
+  <main>
+    <section id="skills">
+      <h2>ทักษะ</h2>
+      <ul>
+        <li>ทักษะการใช้ภาษา Front-end HTML, CSS, JavaScript, React, Svelte</li>
+        <li>ออกแบบ UX/UI: Front-end Developer</li>
+        <li>ทักษะการใช้ภาษา Back-end Python, Java, PHP, Node.js</li>
+        <li>ทักษะด้านการออกแบบและพัฒนาซอฟต์แวร์</li>
+        <li>ทักษะด้านการจัดการเวลา</li>
+        <li>ทักษะด้านการเรียนรู้สิ่งใหม่</li>
+      </ul>
+    </section>
+    <section id="performance">
+      <h2>ผลงาน</h2>
+      <div>
+        <div class="image-container">
+          <div>
+            <img src="image-1.png" alt="Image 1">
+          </div>
+          <div>
+            <img src="image-2.png" alt="Image 2">
+          </div>
+          <div>
+            <img src="image-3.png" alt="Image 3">
+          </div>
+          <div>
+            <img src="image-4.png" alt="Image 4">
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Ittikorn Sirivejaband</p>
+  </footer>
+</body>
+
+</html>
